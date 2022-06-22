@@ -5,27 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¿Lloverá? | Meteo app</title>
+
+    <!-- Fonts de Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style1.css">
-    <link rel="icon" href="nubelluvia.svg">
+    <link rel="icon" href="/img/nubelluvia.svg">
+
 </head>
+
+<header>
+    <ul>
+        <div class="wrapper">
+            <h1 class="box2">¿Lloverá en las próximas 8 horas?</h1>
+        </div>
+    </ul>
+</header>
+
 <body>
+
+    <main>
     <div class="card">
         <div class="search">
-        <button><img src="./iconubicacion.svg" alt="Muestra tu ubicación actual"></button>
+        <input type="hidden" class="search-bar" placeholder="Search">
+        <button><img src="/img/iconubicacion.svg" alt="Muestra tu ubicación actual"></button>
         </div>
-        <div class="weather">
-        <h2 class="city">
-            Tiempo en A Coruña
+
+        <div class="weather loading">
+        <h2>
+            Tiempo en tu ciudad
         </h2>
-        <h1 class="temperature">19 °C</h1>
-        <img src="" alt="" class="icon">
-        <div class="rain">Probabilidad de lluvia: 75%</div>
-        <div class="humidity">Humedad: 80%</div>
-        <div class="wind">Viento: 15 km/h</div>
+        <h1 class="city"></h1>
+            <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+            <div class="temp">Temp:</div>
+            <div class="llovera">¿Lloverá?:</div>
+            <div class="humidity">Humedad:</div>
+            <div class="wind">Viento:</div>
         </div>
     </div>
+    <div class="card2">
+    <figure><img src="/img/sol.svg" alt="sol animado" class="box1"></figure>
+    <figure><img src="/img/nubelloviendo.svg" alt="nube lloviendo" class="box3"></figure>
+    </div>
+    </main>
+
+    <script type="module" src="./final.js"></script>
+
 </body>
+
 </html>
