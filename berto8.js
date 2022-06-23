@@ -1,4 +1,4 @@
-let button = document.getElementById("botonclick");
+/* let button = document.getElementById("button");
 
 button.addEventListener("click", function() {
     console.log("Acabas de hacer click");
@@ -49,4 +49,51 @@ let weather = {
 
 let geocode = {
     
+} */
+
+
+/* function siHayExito(posicion){
+	var latitud = posicion.coords.latitude
+	var longitud = posicion.coords.longitude
+	var output = document.getElementById("ubicacion");
+	output.innerHTML = "Latitud: "+latitud+"  Longitud: "+longitud;
 }
+
+document.querySelector(".search button").addEventListener("click", function () {
+    weather.search();
+  });
+  
+  document
+    .querySelector(".search-bar")
+    .addEventListener("keyup", function (event) {
+      if (event.key == "Enter") {
+        weather.search();
+      }
+    }); */
+
+    const x = document.querySelector(".coords");
+    const btn = document.querySelector("button")
+
+
+    btn.addEventListener("click", function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        } else {
+            x.innerHTML = "Geolocation is not supported by this browser.";
+        }
+    })
+
+
+
+/*     function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        } else {
+            x.innerHTML = "Geolocation is not supported by this browser.";
+        }
+    } */
+
+    function showPosition(position) {
+        console.log(position);
+        x.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;
+    }
