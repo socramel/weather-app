@@ -23,21 +23,21 @@ let weather = {
       document.querySelector(".city").innerText = name;
       document.querySelector(".icon").src =
         "https://openweathermap.org/img/wn/" + icon + ".png";
-      document.querySelector(".llovera").innerText = description;
+      document.querySelector(".description").innerText = "¿Lloverá?: " + description;
       document.querySelector(".temp").innerText = "Temp: " + temp + "°C";
-      document.querySelector(".humidity").innerText =
-        "Humedad: " + humidity + "%";
+      document.querySelector(".humidity").innerText = "";
      /*  document.querySelector(".wind").innerText =
         "Wind speed: " + speed + " km/h"; */
       document.querySelector(".weather").classList.remove("loading");
       document.body.style.backgroundImage =
-        "url('https://source.unsplash.com/1600x900/?" + name + "')";
+        "url('https://source.unsplash.com/1600x900/?" + description + name + "')";
     },
     search: function () {
       this.fetchWeather(document.querySelector(".search-bar").value);
     },
   };
-  
+
+ 
 /*   let geocode = {
     reverseGeocode: function (latitude, longitude) {
       var apikey = "2cad6041208649f7bacaf9013ad4ec2e";

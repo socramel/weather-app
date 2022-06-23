@@ -38,13 +38,13 @@ body {
     font-size: 50px;
  } */
 
- .boton {
+ button {
     display: flex;
     justify-content: center;
     align-items: center;
  }
 
-#enviar {
+button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +56,7 @@ body {
     box-shadow: black 5px 5px 20px;
 }
 
-#enviar:hover {
+button:hover {
     background-color: blue;
     transition: transform 7s; background-color: 8s;
 }
