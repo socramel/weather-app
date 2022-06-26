@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Lloverá? | Meteo app</title>
+
+    <!-- Fonts de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style260622.css">
+    <link rel="icon" href="./nubelluvia.svg">
+    
+</head>
+
+<header>
+    <ul>
+        <div class="wrapper">
+            <h1 class="box2">¿Lloverá en las próximas 8 horas?</h1>
+        </div>
+    </ul>
+</header>
+
+<body>
+
+    <main>
+        <div class="card">
+            <div class="search">
+                <button id="myBtn" type="button" onclick="getLocation()"><img src="./iconubicacion.svg" alt="Muestra tu ubicación actual"></button>
+            </div>
+
+            <div class="weather loading">
+                <h2 class="city">
+                    Tiempo en tu ciudad
+                </h2>
+                <h1 class="city"></h1>
+                <div class="description">¿Lloverá?</div>
+                </div>
+                <div id="llueve" class="description"></div>
+                </div>
+            </div>
+        
+    </main>
+    <script type=" text/javascript" src="./script260622.js"></script>
+    
+</body>
+
+</html>
