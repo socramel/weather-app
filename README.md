@@ -21,7 +21,7 @@ RECURSOS UTILIZADOS:
 - Using the Geolocation API →
 https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API
 
--Open Weather Map API → 
+- Open Weather Map API → 
 https://openweathermap.org/api
 
 ![imagen](https://user-images.githubusercontent.com/98592187/175828810-3c7265ce-ceba-4f4d-bc3d-6a0b1e990579.png)
