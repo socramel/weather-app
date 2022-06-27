@@ -7,44 +7,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¿Lloverá? | Meteo app</title>
 
+    <!-- Autores del proyecto -->
+    <meta name="author" content="Elsa Croques y Marcos Lema" />
+
     <!-- Fonts de Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+
+    <!-- Enlace al archivo CSS -->
     <link rel="stylesheet" href="./style.css">
+
+    <!-- Icono de la pestaña -->
     <link rel="icon" href="./img/nubelluvia.svg">
-    
 </head>
 
-<header>
-    <ul>
-        <div class="wrapper">
-            <h1 class="box2">¿Lloverá en las próximas 8 horas?</h1>
-        </div>
-    </ul>
-</header>
-
 <body>
+
+<header>
+        <div class="wrapper">
+            <h1 class="box">¿Lloverá en las próximas 8 horas?</h1>
+        </div>
+</header>
 
     <main>
         <div class="card">
             <div class="search">
+                <!-- Botón para iniciar evento especificado en script.js -->
                 <button id="myBtn" type="button" onclick="getLocation()"><img src="./img/iconubicacion.svg" alt="Muestra tu ubicación actual"></button>
             </div>
-
+        </div>
             <div class="weather loading">
                 <h2 class="city">
                     Tiempo en tu ciudad
                 </h2>
-                <h1 class="city"></h1>
                 <div class="description">¿Lloverá?</div>
-                </div>
                 <div id="llueve" class="description"></div>
-                </div>
             </div>
-        
     </main>
-    <script type=" text/javascript" src="./script.js"></script>
+
+    <!-- Enlace al archivo de JavaScript -->
+    <script src="./script.js"></script>
     
 </body>
 
