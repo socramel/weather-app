@@ -49,7 +49,7 @@ body {
     border-radius: 30px;
     width: 75vw;
     max-width:250px;
-    max-height: 300px;
+    max-height: 500px;
     margin: 0;
     line-height: 1.5;
     align-content: center;
@@ -63,6 +63,10 @@ button {
     height: 5em;
     width: 5em;
     transition: 0.2s ease-in-out;
+}
+
+.search{
+    justify-content: left;
 }
 
 button:hover{
