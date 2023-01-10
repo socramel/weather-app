@@ -7,8 +7,8 @@ Descripción:
 </li>
 <li>Al hacer clic en el botón la aplicación debe detectar la localización del navegador.
 </li>
-<li>Después de saber las coordenadas GPS de localización debe conectarse a una API meteorológica y recoger la predicción de las próximas horas.</li>
-<li>De esa predicción debe analizarse si en alguna de las próximas horas hay pronóstico de lluvia.</li>
+<li>Después de saber las coordenadas GPS de localización debe conectarse a una API meteorológica y recoger la predicción de las próximas 8 horas.</li>
+<li>De esa predicción debe analizarse si en alguna de las próximas 8 horas hay pronóstico de lluvia.</li>
 <li>Finalmente la aplicación debe indicar si efectivamente va a llover o no.</li>
 </ol>
 
