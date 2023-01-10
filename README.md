@@ -22,6 +22,9 @@ https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API</li>
 https://openweathermap.org/api</li>
 </ul>
 <br>
+Web del proyecto: <a href="https://proyecto1-roan.vercel.app/" target="_blank">proyecto1-roan.vercel.app</a>
+<br>
+<br>
 
 ![imagen](https://user-images.githubusercontent.com/98592187/175829316-5919a9d3-2c75-4402-a05d-b553ac1ca290.png)
 
