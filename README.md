@@ -1,28 +1,27 @@
-PROYECTO 1
+## ¿LLOVERÁ?
+### El ejercicio consiste en crear una aplicación web que muestre si va a llover en las próximas 8 horas en la localización actual en que se encuentre tu dispositivo.
 
-El ejercicio consiste en crear una aplicación web que muestre si va a llover en las próximas 8 horas en la localización actual.
+Descripción:
+<ol>
+<li>La aplicación debe mostrar una página inicial con el título y único botón.
+</li>
+<li>Al hacer clic en el botón la aplicación debe detectar la localización del navegador.
+</li>
+<li>Después de saber las coordenadas GPS de localización debe conectarse a una API meteorológica y recoger la predicción de las próximas horas.</li>
+<li>De esa predicción debe analizarse si en alguna de las próximas horas hay pronóstico de lluvia.</li>
+<li>Finalmente la aplicación debe indicar si efectivamente va a llover o no.</li>
+</ol>
 
-DESCRIPCIÓN:
 
-1- La aplicación debe mostrar una página inicial con el título y único botón.
-
-2- Al hacer clic en el botón la aplicación debe detectar la localización del navegador.
-
-3- Después de saber las coordenadas GPS de localización debe conectarse a una API meteorológica y recoger la predicción de las próximas horas.
-
-4- De esa predicción debe analizarse si en alguna de las próximas horas hay pronóstico de lluvia.
-
-5- Finalmente la aplicación debe indicar si efectivamente va a llover o no.
-
-RECURSOS UTILIZADOS:
-
-- MDN: Fetch API → https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
-
-- Using the Geolocation API →
-https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API
-
-- Open Weather Map API → 
-https://openweathermap.org/api
+Recursos utilizados:
+<ul>
+<li>Fetch API → https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch</li>
+<li>Using the Geolocation API →
+https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API</li>
+<li>Open Weather Map API → 
+https://openweathermap.org/api</li>
+</ul>
+<br>
 
 ![imagen](https://user-images.githubusercontent.com/98592187/175829316-5919a9d3-2c75-4402-a05d-b553ac1ca290.png)
 
